@@ -1,5 +1,8 @@
+
+
+ 
 body, html {
-    background: black;
+	background: black;
 }
 
 /* FIX */
@@ -195,7 +198,7 @@ input::-webkit-input-placeholder {
 /* composer */
 ._4rv3, ._4_j4 .chatAttachmentShelf {
 	background-color: #1e1e1e !important;
-	border-top-color: rgba(255, 255, 255, .1) !important;
+    border-top-color: rgba(255, 255, 255, .1) !important;
 }
 .fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments {
 	background-color: #1e1e1e;
@@ -508,12 +511,24 @@ div._4-i2, div._5a8u {
 }
 
 
-/* images width fix */
-._1t_p * {  
-  max-width: 100% !important;
-  max-height: none !important;
+
+._3058._15gf {
+    width: 98% !important;
 }
-a._4tsl ~ div {
+._3058._15gf * {
+    max-width: 100% !important;
+  	max-height: none !important;
+}
+._3058._15gf a._4tsl ~ div {
 	max-width: 100% !important;
   	height: auto !important;
+}
+._52mr._2poz._ui9._4skb._5i_d {
+      max-width: 100% !important;
+      width: 85% !important;
+}
+
+
+._4_j4 svg path {
+    fill: #777 !important;
 }
